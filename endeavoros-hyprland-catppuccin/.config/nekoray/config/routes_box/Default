@@ -1,0 +1,10 @@
+{
+    "custom": "{\"rules\": []}",
+    "def_outbound": "proxy",
+    "direct_dns": "localhost",
+    "dns_final_out": "proxy",
+    "dns_routing": true,
+    "remote_dns": "https://8.8.8.8/dns-query",
+    "sniffing_mode": 1,
+    "use_dns_object": false
+}

@@ -1,0 +1,13 @@
+2024/11/06 11:50:21 nekobox_core grpc server listening at 127.0.0.1:34819
+2024/11/06 11:55:15 nekobox_core grpc server listening at 127.0.0.1:45249
+2024/11/06 12:01:39 nekobox_core grpc server listening at 127.0.0.1:35949
+2024/11/06 12:02:35 nekobox_core grpc server listening at 127.0.0.1:34763
+2024/11/06 12:16:14 nekobox_core grpc server listening at 127.0.0.1:34763
+2024/11/06 12:16:32 nekobox_core grpc server listening at 127.0.0.1:34763
+2024/11/06 12:17:10 nekobox_core grpc server listening at 127.0.0.1:45113
+2024/11/06 12:20:37 nekobox_core grpc server listening at 127.0.0.1:46703
+2024/11/06 12:24:53 nekobox_core grpc server listening at 127.0.0.1:35289
+2024/11/06 12:25:11 nekoray_core grpc server listening at 127.0.0.1:34871
+2024/11/06 12:25:15 [Warning] core: Xray 1.8.4 started
+2024/11/06 12:26:12 [Warning] core: Xray 1.8.4 started
+2024/11/06 12:26:49 [Warning] core: Xray 1.8.4 started

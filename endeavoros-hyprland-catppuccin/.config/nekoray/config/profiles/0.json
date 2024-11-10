@@ -1,0 +1,31 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "150.241.91.243",
+        "flow": "xtls-rprx-vision",
+        "name": "B-r1u7banx",
+        "pass": "838924f7-dab5-427f-83db-0d06bede9ca2",
+        "port": 52238,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "wpFayxyN7gnEww0uRkGNwVMeSyD-CZMkwxk_K6HmDWo",
+            "sec": "tls",
+            "sid": "32",
+            "sni": "yahoo.com",
+            "spx": "/",
+            "utls": "chrome"
+        }
+    },
+    "gid": 0,
+    "id": 0,
+    "report": "Latency: 799ms / Speed: 8.16MiB/s / In: 150.241.91.243 / Out: 150.241.91.243",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": 799
+}

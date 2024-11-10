@@ -1,0 +1,68 @@
+! $OpenBSD: Xresources.in,v 1.4 2022/11/07 17:12:06 matthieu Exp $
+!
+!
+!
+!
+!
+
+#define gruvbox0 #191724
+#define gruvbox1 #393552
+#define gruvbox4 #f6c177
+#define gruvbox11 #fb4934
+#define gruvbox12 #e0def4
+
+DisplayManager*terminateServer: true
+
+xroot.background: gruvbox0
+
+! XLogin
+!
+xlogin.Login.allowRootLogin: true
+
+xlogin.Login.echoPasswd:   false
+xlogin.Login.fail:         Authorization failed
+xlogin.Login.greeting:
+xlogin.Login.namePrompt:
+xlogin.Login.passwdPrompt:
+
+xlogin.Login.y:                340
+xlogin.Login.width:            480
+xlogin*borderWidth:            0
+xlogin.Login.frameWidth:       0
+xlogin.Login.innerFramesWidth: 0
+xlogin.Login.sepWidth:         0
+
+xlogin.Login.background:  gruvbox0
+xlogin.Login.foreground:  gruvbox12
+xlogin.Login.failColor:   gruvbox11
+xlogin.Login.greetColor:  gruvbox4
+xlogin.Login.inpColor:    gruvbox1
+xlogin.Login.promptColor: gruvbox4
+
+xlogin.Login.face:       JetBrains Mono-12
+xlogin.Login.failFace:   JetBrains Mono-14:bold
+xlogin.Login.greetFace:  JetBrains Mono-0
+xlogin.Login.promptFace: JetBrains Mono-14
+
+! XClock
+!
+
+xclock*background:       gruvbox0
+xclock*foreground:       gruvbox4
+xclock*borderWidth:      0
+xclock*font:             -*-terminus-bold-*-*-*-16-*-*-*-*-*-iso8859-15
+xclock.Clock.analog:     false
+xclock.Clock.chime:      false
+xclock.Clock.render:     false
+xclock.Clock.twentyfour: true
+xclock.Clock.update:     10
+
+! XMessage
+!
+xmessage*background: gruvbox0
+xmessage*foreground: gruvbox4
+xmessage*borderWidth: 0
+xmessage*font: -*-terminus-bold-*-*-*-16-*-*-*-*-*-iso8859-15
+xmessage*message.scrollHorizontal: Never
+xmessage*message.scrollVertical: Never
+xmessage*timeout: 0
